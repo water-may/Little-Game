@@ -1,0 +1,81 @@
+nav
+{
+    height: 35px;
+    background-color: rgba(192, 8, 8, 0.644);
+}
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+/* Colors for brand */
+nav .navbar-brand .blue
+{
+    color: #58a500;
+}
+nav .navbar-brand .red
+{
+    color: #aac547da;
+}
+nav .navbar-brand .yellow
+{
+    color: #a5d6339c;
+}
+nav .navbar-brand .green
+{
+    color: #43d66da6;
+}
+
+main .form-control
+{
+    /* Center form controls */
+    display: inline-block;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
+    background: rgba(8, 32, 3, 0.534);
+    color: lightyellow;
+}
+main .form-control:focus
+{
+    /* Center form controls */
+    display: inline-block;
+
+    /* Override Bootstrap's 100% width for form controls */
+    width: auto;
+    background: rgba(116, 206, 113, 0.466);
+    color: lightyellow;
+}
+
+.form-control::placeholder
+{
+    color: rgba(7, 255, 7, 0.473);
+}
+
+main
+{
+    /* Scroll horizontally as needed */
+    overflow-x: auto;
+    padding-top: 25%;
+    /* Center contents */
+    text-align: center;
+}
+
+body {
+    background-color: black;
+}
+
+form .btn-primary {
+    color: lightseagreen;
+    background-color: rgba(18, 29, 36, 0.473);
+}
+
+form .btn-primary:hover {
+    color: rgba(32, 178, 171, 0.767);
+    background-color: rgba(18, 29, 36, 0.836);
+}
+
+index {
+    padding-top: 40%;
+}
